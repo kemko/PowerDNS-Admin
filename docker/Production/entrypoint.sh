@@ -1,5 +1,6 @@
 #!/bin/bash
 set -Eeuo pipefail
+set -x
 cd /opt/powerdns-admin
 
 GUNICORN_TIMEOUT="${GUINCORN_TIMEOUT:-120}"
